@@ -78,6 +78,7 @@ project3-cicd-deployment-pipeline/
 ├── docker-compose.yml
 ├── deploy.sh
 ├── index.html
+├── images/
 └── README.md
 ```
 
@@ -212,81 +213,31 @@ Deployment validation included:
 
 ## GitHub Actions Successful Deployment
 
-Rename image to:
-
-```text
-github-actions-successful-deployment.png
-```
-
-Markdown:
-
-```md
 ![GitHub Actions Deployment](images/github-actions-successful-deployment.png)
-```
 
 ---
 
 ## Nginx Reverse Proxy Configuration
 
-Rename image to:
-
-```text
-nginx-reverse-proxy-configuration.png
-```
-
-Markdown:
-
-```md
 ![Nginx Reverse Proxy](images/nginx-reverse-proxy-configuration.png)
-```
 
 ---
 
 ## Nginx Service Running
 
-Rename image to:
-
-```text
-nginx-service-running.png
-```
-
-Markdown:
-
-```md
 ![Nginx Service](images/nginx-service-running.png)
-```
 
 ---
 
 ## AWS Security Group Configuration
 
-Rename image to:
-
-```text
-aws-security-group-configuration.png
-```
-
-Markdown:
-
-```md
 ![AWS Security Group](images/aws-security-group-configuration.png)
-```
 
 ---
 
 ## Docker Compose Container Status
 
-Rename image to:
-
-```text
-docker-compose-container-status.png
-```
-
-Markdown:
-
-```md
 ![Docker Compose Status](images/docker-compose-container-status.png)
-```
 
 ---
 
