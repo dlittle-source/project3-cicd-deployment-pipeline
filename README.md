@@ -221,7 +221,7 @@ github-actions-successful-deployment.png
 Markdown:
 
 ```md
-![GitHub Actions Deployment](images/github-actions-successful-deployment)
+![GitHub Actions Deployment](images/github-actions-successful-deployment.png)
 ```
 
 ---
@@ -237,7 +237,7 @@ nginx-reverse-proxy-configuration.png
 Markdown:
 
 ```md
-![Nginx Reverse Proxy](images/nginx-reverse-proxy-configuration)
+![Nginx Reverse Proxy](images/nginx-reverse-proxy-configuration.png)
 ```
 
 ---
@@ -253,7 +253,7 @@ nginx-service-running.png
 Markdown:
 
 ```md
-![Nginx Service](images/nginx-service-running)
+![Nginx Service](images/nginx-service-running.png)
 ```
 
 ---
@@ -269,7 +269,7 @@ aws-security-group-configuration.png
 Markdown:
 
 ```md
-![AWS Security Group](images/aws-security-group-configuration)
+![AWS Security Group](images/aws-security-group-configuration.png)
 ```
 
 ---
@@ -285,7 +285,7 @@ docker-compose-container-status.png
 Markdown:
 
 ```md
-![Docker Compose Status](images/docker-compose-container-status)
+![Docker Compose Status](images/docker-compose-container-status.png)
 ```
 
 ---
