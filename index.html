@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 3 | CI/CD Deployment Pipeline</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      max-width: 720px;
+      padding: 40px;
+      border-radius: 20px;
+      background: #111827;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      text-align: center;
+      border: 1px solid #334155;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #14532d;
+      color: #bbf7d0;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .item {
+      background: #020617;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .label {
+      color: #94a3b8;
+      font-size: 0.85rem;
+    }
+
+    .value {
+      margin-top: 6px;
+      font-weight: bold;
+      color: #f8fafc;
+    }
+
+    @media (max-width: 640px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        margin: 20px;
+        padding: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">Deployment Status: Successful</div>
+
+    <h1>Project 3: Automated CI/CD Deployment Pipeline</h1>
+
+    <p>
+      This lightweight application demonstrates an automated deployment workflow
+      using GitHub Actions, Docker, AWS EC2, and Nginx.
+    </p>
+
+    <section class="grid">
+      <div class="item">
+        <div class="label">Cloud Platform</div>
+        <div class="value">AWS EC2</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Container Runtime</div>
+        <div class="value">Docker</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Reverse Proxy</div>
+        <div class="value">Nginx</div>
+      </div>
+
+      <div class="item">
+        <div class="label">CI/CD</div>
+        <div class="value">GitHub Actions</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

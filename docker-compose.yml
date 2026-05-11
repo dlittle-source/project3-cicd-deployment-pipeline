@@ -1,0 +1,7 @@
+services:
+  project3-app:
+    build: .
+    container_name: project3-cicd-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
